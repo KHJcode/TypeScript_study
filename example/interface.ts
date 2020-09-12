@@ -34,3 +34,4 @@ interface PersonArray2 {
 const p2: PersonArray2 = {};
 p2[0] = "hi 0";
 p2[100] = "hello 100";
+console.log(p2);
