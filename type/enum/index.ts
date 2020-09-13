@@ -1,4 +1,7 @@
-enum Color {Red = 1, Green = 3, Blue, White} // 모든 값 수동 설정이 가능
+// JS 의 표준 자료형 집합과 사용하면 도움이 됨
+// 기본적으로 0부터 시작하여 요소들에 번호를 매김
+
+enum Color {Red = 1, Green = 3, Blue, White} // 수동 설정이 가능
 
 let a: Color = Color.Red;
 let b: string = Color[3];
@@ -9,3 +12,5 @@ console.log('a :', a);
 console.log('b :', b);
 console.log('c :', c);
 console.log('d :', d);
+
+console.log('enum :', Color);

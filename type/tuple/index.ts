@@ -5,14 +5,6 @@ let x: [string, number];
 x = ["hello", 10]; // success
 console.log('x :', x);
 
-try {
-  x[1].substring(1); // error
-} catch (err) {
-  console.error(err);
-}
+x[1].substring(1); // error
 
-try {
-  x[2] = true; // error
-} catch (err) {
-  console.error(err);
-}
+x[2] = true; // error
