@@ -12,5 +12,5 @@ if (list_1 !== list_2) { // JS 의 특성
 let list_3: string[] = ['Tom', 'Amy', 'Jhon', 'Brown', 'Julia'];
 console.log(list_3);
 
-let list_4: Array<boolean> = [true, false, true, false];
+let list_4: Array<boolean> = [true, false, true, false]; // angle-bracket
 console.log(list_4);
