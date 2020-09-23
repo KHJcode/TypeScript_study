@@ -6,6 +6,8 @@ let n: null = null;
 console.log('u :', u, '\ntype :', typeof(u));
 console.log('n :', n, '\ntype :', typeof(n));
 
+let union : number | null | undefined = 5;
+
 // --strictNullChecks 사용하지 않는 경우 값의 undefined 와 null 은 다른 타입들에 할당 가능
 
 // 일반적인 경우 --strictNullChecks를 사용을 권장
